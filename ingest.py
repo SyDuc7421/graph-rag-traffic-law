@@ -6,7 +6,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
-    file_path = "law.txt"
+    file_path = ""
     max_chunks = None
     
     if len(sys.argv) > 1:
